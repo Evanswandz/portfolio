@@ -1,0 +1,138 @@
+
+body{
+  text-align: center;
+}
+
+
+h1 , h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+
+}
+h3{
+  color: #3c4f65;
+}
+hr{
+  background-color: #3c4f65;
+margin: 0;
+
+border-width: 3px;
+}
+
+
+
+
+
+
+
+.container-fluid{
+
+  padding: 0 ;
+}
+.navbar{
+  background-color: #1B242F;
+
+}
+.title{
+  background-color: #252934;
+  padding: 12% 0 12%;
+  color: #fff;
+
+
+
+  /* -webkit-animation: mymove 5s infinite; Chrome, Safari, Opera */
+  animation: mymove 8s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {background-color:#252934 ;}
+  to {background-color:#1B242F ;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  from {background-color: #252934;}
+  to {background-color: #3c4f65  ;}
+
+}
+
+.name{
+  color: #3c4f65;
+}
+
+.about{
+  background-color: #F5F5F5;
+    padding: 7% 20% 12%;
+
+}
+.about-img{
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+    margin-bottom:  30px;
+  border-radius: 33.3%;
+border-style: solid;
+  border-color:  #3c4f65;
+
+
+
+
+}
+.inner-contact{
+  color: inherit;
+
+}
+.inner-contact:hover{
+  color: #3c4f65;
+}
+.offer{
+  margin-top: 10%;
+  }
+
+
+
+
+
+
+
+.my-work{
+  padding: 7% 30% 12%;
+}
+.contact-me{
+  padding: 7% 30% 12%;
+  background-color: #252934;
+  color: #fff;
+}
+.bid{
+  padding: 30px 0 0;
+}
+.message-me{
+  padding-top: 4%;
+}
+.footer{
+  background-color: #1B242F;
+  padding: 7% 30% 12%;
+  color: white;
+}
+.fab{
+  color: white;
+  padding:  3% ;
+  margin: 0 2% 7%;
+  font-size: 2rem;
+  background-color: #252934;
+}
+.fab:hover {
+  background-color:  #3c4f65;
+}
+.fa-facebook-f{
+  padding: 4% 4%;
+}
+.iconz{
+  padding-top: 7%;
+  font-size: 30%;
+  color: black;
+}
+.orange{
+  color:  #3c4f65;
+}
